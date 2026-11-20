@@ -73,7 +73,7 @@ class _InitializingViewState extends State<InitializingView> {
           child: Padding(
             padding: const EdgeInsets.all(24),
             child: _error == null
-                ? const Column(
+                ? Column(
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       StyledLoadingIndicator(),
